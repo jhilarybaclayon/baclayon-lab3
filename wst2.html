@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<head>
+	<title>Lab Act 2</title>
+	<style>
+*{
+	margin: 0;
+	pdding: 0;
+}
+.first{
+	padding: 0;
+	width: 100%;
+	height: 70%;
+	display: flex;
+	align-items: center; 
+}
+.f1{
+	font-family: myriad pro regular;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.f1 h{
+	font-size: 250%;
+	text-align: center;
+	text-align: justify;
+	letter-spacing: 3px;
+	color:#4a4b65;
+}	
+.f1 p{
+	font-size: 130%;
+	text-align: center;
+	text-weight: lighter;	
+	letter-spacing: 3px;
+	color: #737491;
+}
+.f2{ 
+	margin-right: 2%;
+	margin-top: 2%;
+}
+.f2 img{
+	max-width: 90%;
+	height: auto;
+}
+
+.second{
+	display: flex;7:29 PM 3/13/2021
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	background-color: rgba(118,109,244,0.08);
+
+}
+.second img{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	max-width: 50%;
+	height: auto;	
+}
+.hp2content{
+	font-family: Myriad pro regular;
+	text-align: center;
+	margin-left: 3%; 
+}
+.hp2content img{
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+
+}
+.hp2content h{
+	text-align: center;
+	font-size: 200%;
+	color:#4a4b65;
+}
+.hp2h{
+	font-family: myriad pro regular;
+	font-size: 20px;
+	color:#4a4b65;
+	text-align: center;
+	align-content: center;
+}
+.hp2c{
+	font-family: myriad pro regular;
+	font-size: 15px;
+
+	text-align: center;
+	align-content: center;
+}
+
+nav{ 
+	font-family: myriad pro regular;
+	text-align: center;
+	padding: 3%;
+	align-items: center;
+	width: 100%;
+}
+.third h{
+	font-size: 200%;
+	color:#4a4b65;
+}
+.third p{
+	font-size:100%;
+	color: #737491;
+}
+.box-container{
+	display: grid;
+	grid-template-column: auto auto auto;
+	grid-template-row: auto auto;
+	grid-template-areas: "1 2 3"
+			"4 5 6";
+	grid-gap: 0;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	padding: 0;
+	
+}
+.boxs{
+	text-align: center;
+	width: 70%;
+	height: auto;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	display:inline-block;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+.boxs img{
+	max-width: 100%;
+	height: auto;
+}
+.boxs h{
+	font-family: myriad pro regular;
+	font-size: 100%;
+	color: #4a4b65;
+}
+.boxs p{
+	font-family: myriad pro regular;
+	font-size: 100%;
+	color: #737491;
+}
+.contact{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(118,109,244,0.08);
+	text-align: center;
+	padding-top: 20px;
+}
+.contact h{
+	align-items: center;
+	font-family: Myriad pro regular;
+	font-size: 40px;
+	color:#4a4b65;
+}
+.contact p{
+	align-items: center;
+	font-family:  myriad pro regular;
+	margin-top: 10px;
+	font-size: 16px;
+	 color: #737491;
+}
+footer{
+	height: 40px;
+	font-size: 16px;
+	font-family: myriad pro regular;
+	text-align: center;
+	margin-top: 20px;
+}
+</style>
+</head>
+<body>
+	<div class="first"> 
+		<div class="f1">
+		<h> Hey, I'm Alex</h>
+		<p> Graphic Designer </p>
+		</div>
+
+		<div class="f2">
+		<img src="HP1.svg" alt=" ">
+		</div>
+	</div>
+
+	<div class="second">
+		<img src="HP2.svg" alt=" ">
+		
+		<div class="hp2content">
+			
+			<h>What I do best </h><br><br>
+
+			<img src="01.svg">
+			<p class="hp2h">Creative Illustrations</p>
+			<p class="hp2c"> At vero eos et accusmus et iusto odio dignissimos ducimus qui blanditiis voluptatum deleniti atque.</p>
+
+			<img src="02.svg">
+			<p class="hp2h">Graphic Identity and Branding</p>
+			<p class="hp2c"> Execpteur sint occaecat cupidatat non proident, sunt in culpa qui officia occaecati cupiditate non provident.</p>
+
+			<img src="03.svg">
+			<p class="hp2h">Graphic Packaging Design </p>
+			<p class="hp2c"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+		</div>
+	</div>
+	
+	<div class="third">
+		<nav>
+		<h>My Portfolio</h><br><br>
+		<p Id="p1"> Most recent projects I have completed</p>
+		</nav>
+		
+		<div class="box-container">
+		<div class="boxs" id="1">
+		<img src="01.jpg">
+		<h> Apologetic Robot Holding Flowers</h>
+		<p>Branding</p>
+		</div>
+
+		<div class="boxs" id="2">
+		<img src="02.jpg">
+		<h> Woman Walking Her Small Dog</h>
+		<p>Illustrations</p>	
+		</div>
+
+		<div class="boxs" id="3">
+		<img src="03.jpg">
+		<h>Oil Bottle Branding</h>
+		<p>Branding</p>
+		</div>
+
+		<div class="boxs" id="4">
+		<img src="04.jpg">
+		<h>Smiling Woman</h>
+		<p>Illustrations</p>
+		</div>
+
+		<div class="boxs" id="5">
+		<img src="05.jpg">
+		<h> Drink can Design</h>
+		<p>Packaging</p>
+		</div>
+
+		<div class="boxs" id="6">	
+		<img src="06.jpg">
+		<h> I Love You Hand Gesture</h>
+		<p>Illustrations</p>
+		</div>
+		</div>
+
+	</div>
+
+	<div class="contact">
+		<h>Let's Talk!</h>
+		<p>@twitter @instagram @pinterest</p>
+	</div>
+	<footer>
+		<p>All Rights Reserved</p
+	</footer>
+	<div class="try">
+		<div class="1">
+		</div>
+		<div class="2">
+		</div>
+		<div class="3">
+		</div>
+	</div>
+</body>
+</html>
